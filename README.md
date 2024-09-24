@@ -1,6 +1,6 @@
 ## Lab 2.2 : Classification Multi-Classes avec Régression Logistique One-vs-All et k-Nearest Neighbors sur le Dataset Forest Cover Type 🌲    
 
-(Notebook)[]
+[Notebook](https://albanecoiffe.github.io/forest_cover_type_dataset/)
 
 Objectif :    
 Ce projet a pour but de classifier les types de couvertures forestières en utilisant deux algorithmes de machine learning : la régression logistique One-vs-All et l'algorithme des k-Nearest Neighbors (k-NN). Le dataset utilisé est le Forest Cover Type Dataset de l'UCI Machine Learning Repository. Avant de procéder à la classification, une analyse exploratoire des données est réalisée à l'aide de ydata_profiling.
