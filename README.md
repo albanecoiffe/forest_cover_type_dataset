@@ -11,14 +11,18 @@ Ce projet a pour but de classifier les types de couvertures forestières en util
  
 ## ⚙️ Phases du Projet      
 **Profiling du Dataset avec ydata_profiling :**      
-Génération d'un rapport de profil pour explorer le dataset (valeurs manquantes, outliers, corrélations, etc.).      
+Génération d'un rapport de profil pour explorer le dataset (valeurs manquantes, outliers, corrélations, etc.). 
+
 **Prétraitement des Données :**      
-Ingénierie des caractéristiques, division du dataset en ensembles d'entraînement et de test (80/20), et standardisation des données pour améliorer la convergence des modèles.      
+Ingénierie des caractéristiques, division du dataset en ensembles d'entraînement et de test (80/20), et standardisation des données pour améliorer la convergence des modèles.    
+
 **Entraînement et Évaluation des Modèles :**          
 - Régression Logistique One-vs-All :            
-Entraînement du modèle avec la stratégie One-vs-All et évaluation des performances via matrice de confusion et rapport de classification.      
+Entraînement du modèle avec la stratégie One-vs-All et évaluation des performances via matrice de confusion et rapport de classification.
+   
 - k-Nearest Neighbors (k-NN) :            
-Entraînement du modèle k-NN et évaluation similaire à celle de la régression logistique.          
+Entraînement du modèle k-NN et évaluation similaire à celle de la régression logistique.
+
 **Analyse et Discussion :**      
 - Comparaison des performances des deux modèles.           
 - Exploration des hyperparamètres (ex. : différentes valeurs de k pour k-NN et ajustement de la régularisation pour la régression logistique).         
