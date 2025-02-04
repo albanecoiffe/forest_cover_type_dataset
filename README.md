@@ -16,15 +16,15 @@ The dataset used is the Forest Cover Type Dataset from the UCI Machine Learning 
 
  
 ## ⚙️ Project Phases
-1. Dataset Profiling with ydata_profiling
+1. Dataset Profiling with ydata_profiling       
 Generating a profiling report to explore dataset characteristics (missing values, outliers, correlations, etc.).
 
-2. Data Preprocessing
+2. Data Preprocessing       
 - Feature engineering
 - Splitting the dataset into training (80%) and testing (20%) sets
 - Standardizing data to improve model convergence
 
-3. Model Training & Evaluation       
+3. Model Training & Evaluation        
 ✅ One-vs-All Logistic Regression      
  - Training the model using the One-vs-All strategy
  - Evaluating performance using a confusion matrix and a classification report       
@@ -32,7 +32,7 @@ Generating a profiling report to explore dataset characteristics (missing values
  - Training the k-NN model
  - Evaluating performance similarly to logistic regression
 
-4. Analysis & Discussion
+4. Analysis & Discussion       
 - Comparing the performance of both models
 - Exploring hyperparameters (e.g., different values of k for k-NN and regularization tuning for logistic regression)
 - Using cross-validation for more robust evaluation      
