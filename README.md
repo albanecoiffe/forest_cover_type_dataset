@@ -24,11 +24,11 @@ Generating a profiling report to explore dataset characteristics (missing values
 - Splitting the dataset into training (80%) and testing (20%) sets
 - Standardizing data to improve model convergence
 
-3. Model Training & Evaluation
-✅ One-vs-All Logistic Regression
+3. Model Training & Evaluation       
+✅ One-vs-All Logistic Regression      
  - Training the model using the One-vs-All strategy
- - Evaluating performance using a confusion matrix and a classification report
-✅ k-Nearest Neighbors (k-NN)
+ - Evaluating performance using a confusion matrix and a classification report       
+✅ k-Nearest Neighbors (k-NN)       
  - Training the k-NN model
  - Evaluating performance similarly to logistic regression
 
